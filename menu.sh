@@ -56,7 +56,7 @@ crear_entorno(){
     mkdir -p "$HOME/EPNro1/entrada" "$HOME/EPNro1/salida" "$HOME/EPNro1/procesado"
 
     if [ -f "consolidar.sh" ]; then
-        mv consolidar.sh "$HOME/EPNro1/"
+        cp consolidar.sh "$HOME/EPNro1/"
     fi
 
     echo "Entorno creado exitosamente"
